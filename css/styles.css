@@ -17,9 +17,10 @@ h1.main{
 }
 p{
   line-height: 2;
-  /* color:white; */
 }
-
+.active p{
+  margin:20px;
+}
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
@@ -55,14 +56,14 @@ a:hover{
 
 .skill-row{
   width :50%;
-  margin:200px auto ;
+  margin:90px auto ;
   text-align: left;
 
 }
 .programming {
   float: left;
   border-radius: 1000px ;
-  width: 25%;
+  width: 20%;
   margin-right: 30px;
 
 }
@@ -70,19 +71,22 @@ a:hover{
   margin : 20px auto;
 }
 
-
 .music{
-  width: 25%;
-  float:right;
-  margin-left: 30px;
+  width: 20%;
+  float:left;
+  margin-right: 30px;
+}
 
-
+.problem{
+  width: 20%;
+  float:left;
+  margin-right: 30px;
 }
 .navigation{
   background-color: #fee4bc;
 }
 .topContainer{
-  height: 385px;
+  height: 350px;
   background-color: #fee4bc;
   padding-top: 36px;
   position: relative;
@@ -96,21 +100,6 @@ a:hover{
   background-color:#fee4bc;
   padding: 50px 0 20px;
   }
-
-.bottom-cloud{
-  position: absolute;
-  left: 300px;
-  width:30%;
-  top:0;
-  bottom: 10px;
-}
-.top-cloud{
-  position: absolute;
-  right: 300px;
-  width : 30%;
-  top: 50px;
-}
-
 
 .introduction{
   width: 50%;
@@ -165,9 +154,25 @@ a:hover{
 
 
 .fab{
-  color: #dd4a48;
+  color: #000000;
 }
 
 .testimonials{
   margin: 100px;
 }
+i{
+  margin:25px;
+}
+
+.skills{
+  text-align: center;
+}
+
+.row{
+  padding: 50px;
+}
+
+/* .active{
+  background-color: #fee4bc;
+  padding: 1.5rem;
+} */
