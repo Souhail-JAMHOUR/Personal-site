@@ -47,7 +47,7 @@ a{
   color:#0d578c;
   font-family: 'Merriweather', sans-serif;
   margin: 10px 20px;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover{
@@ -188,5 +188,17 @@ i{
     width:80%;
   }
   
+  .project-icon{
+  background-color: #fee6bc;
+  border-radius: 58px;
+}
   
+}
+
+
+.project-icon{
+  background-color: #fee4bc;
+  width: 27%;
+  margin:auto;
+  border-radius: 58px;
 }
