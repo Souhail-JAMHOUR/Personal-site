@@ -2,7 +2,6 @@ body{
   margin: 0 ;
   font-family: 'Merriweather', sans-serif !important;
   text-align: center !important;
-  padding: 5px;
 
 }
 h1{
@@ -135,6 +134,7 @@ a:hover{
 .copyright{
   color :#000000;
   font-size: 0.75rem;
+    
   padding: 20px 0;
 }
 .navbar-color{
@@ -183,7 +183,10 @@ i{
 @media only screen and (max-width: 991px){
   .navbar{
     width:85%;
-    
   }
+  .introduction{
+    width:80%;
+  }
+  
   
 }
