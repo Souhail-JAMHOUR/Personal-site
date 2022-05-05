@@ -172,12 +172,16 @@ i{
   padding: 50px;
 }
 
-/* .active{
-  background-color: #fee4bc;
-  padding: 1.5rem; 
-} */
+
 .navbar-toggler{
   margin-right: 5%;
+}
+.project-icon{
+  background-color: #fee4bc;
+  width: 35%;
+  margin:auto;
+  border-radius: 58px;
+
 }
 
 @media only screen and (max-width: 991px){
@@ -187,18 +191,14 @@ i{
   .introduction{
     width:80%;
   }
-  
   .project-icon{
-  background-color: #fee6bc;
-  border-radius: 58px;
-}
-  
-}
-
-
-.project-icon{
   background-color: #fee4bc;
-  width: 27%;
+  width: 75%;
   margin:auto;
   border-radius: 58px;
 }
+  
+}
+
+
+
