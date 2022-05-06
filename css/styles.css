@@ -98,6 +98,7 @@ a:hover{
 .bottom-container{
   background-color:#fee4bc;
   padding: 50px 0 20px;
+  margin-top: auto;
   }
 
 .introduction{
@@ -182,6 +183,11 @@ i{
   margin:auto;
   border-radius: 58px;
 
+}
+
+.footer{
+  margin-top: 200px;
+  
 }
 
 @media only screen and (max-width: 991px){
